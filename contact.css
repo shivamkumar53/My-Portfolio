@@ -1,0 +1,156 @@
+body {
+  background-color: rgb(0, 0, 0);
+  height: 721px;
+}
+
+#portfolio {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+  padding-top: 20px;
+  display: inline-block;
+  padding-right: 650px;
+  font-size: larger;
+}
+
+a {
+  margin: 40px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+
+a:hover {
+  color: aqua;
+  text-shadow: 0 0 10px aqua;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+span {
+  color: aqua;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.first {
+ background-color:rgb(32,32,32);
+ border-color:  	#202020;
+  height: 40px;
+  width: 290px;
+  border-radius: 15px;
+  margin-left: 370px;
+  margin-top: 45px;
+  color: aliceblue;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 40px;
+  outline: none;
+}
+
+.first:hover {
+  box-shadow: 0 0 15px aquamarine;
+}
+
+.last {
+  background-color:rgb(32,32,32);
+  border-color:  	#202020;
+  height: 40px;
+  width: 290px;
+  border-radius: 15px;
+  margin-left: 870px;
+  margin-top: 45px;
+  display: inline-block;
+  color: aliceblue;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 40px;
+  outline: none;
+}
+
+.last:hover {
+  box-shadow: 0 0 15px aquamarine;
+}
+
+.comment {
+  background-color:rgb(32,32,32);
+  border-color:  	#202020;
+  border-radius: 15px;
+  color: aliceblue;
+  width: 800px;
+  height: 260px;
+  margin-left: 370px;
+  margin-top: 180px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 40px;
+}
+
+.comment:hover {
+  box-shadow: 0 0 15px aquamarine;
+}
+
+.submit {
+  background-color: aqua;
+  border-color: aqua;
+  height: 35px;
+  width: 100px;
+  border-radius: 40px;
+  box-shadow: 0 0 8px aquamarine;
+  margin-top: 480px;
+  margin-left: 730px;
+  cursor: pointer;
+}
+
+.submit:hover {
+  box-shadow: 0 0 15px aquamarine;
+}
+
+.number {
+  background-color:rgb(32,32,32);
+  border-color:  	#202020;
+  height: 40px;
+  width: 290px;
+  border-radius: 15px;
+  margin-left: 370px;
+  margin-top: 110px;
+  color: aliceblue;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 40px;
+  outline: none;
+}
+
+.number:hover {
+  box-shadow: 0 0 15px aquamarine;
+}
+
+.email {
+  background-color:rgb(32,32,32);
+  border-color:  	#202020;
+  height: 40px;
+  width: 290px;
+  border-radius: 15px;
+  margin-left: 870px;
+  margin-top: 110px;
+  color: aliceblue;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  line-height: 40px;
+  outline: none;
+}
+
+.email:hover {
+  box-shadow: 0 0 15px aquamarine;
+}

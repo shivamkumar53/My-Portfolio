@@ -1,0 +1,237 @@
+body {
+  background-color: rgb(0, 0, 0);
+  height: 721px;
+}
+
+#portfolio {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 70px;
+  padding-top: 20px;
+  display: inline-block;
+  padding-right: 650px;
+  font-size: larger;
+}
+
+a {
+  margin: 40px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+}
+
+a:hover {
+  color: aqua;
+  text-shadow: 0 0 10px aqua;
+}
+
+#our {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+}
+
+span {
+  color: aqua;
+}
+
+.web {
+  background-color: rgba(0, 0, 0, 0.271);
+  height: 300px;
+  width: 295px;
+  border-radius: 15px;
+  margin-left: 190px;
+  margin-top: 90px;
+  display: inline-block;
+  box-shadow: 0 0 12px aquamarine;
+  position: absolute;
+}
+
+.ui {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.271);
+  height: 300px;
+  width: 295px;
+  border-radius: 15px;
+  margin-left: 1075px;
+  margin-top: 90px;
+  box-shadow: 0 0 12px aquamarine;
+  position: absolute;
+}
+
+.secur {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.271);
+  height: 300px;
+  width: 300px;
+  border-radius: 15px;
+  margin-left: 637px;
+  margin-top: 90px;
+  box-shadow: 0 0 12px aquamarine;
+  position: absolute;
+}
+
+.secur:hover {
+  box-shadow: 0 0 30px aquamarine;
+}
+
+.ui:hover {
+  box-shadow: 0 0 30px aquamarine;
+}
+
+.web:hover {
+  box-shadow: 0 0 30px aquamarine;
+}
+
+.web h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+.ui h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+.secur h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  margin-left: 85px;
+  margin-top: 70px;
+  color: aliceblue;
+}
+
+#webread {
+  background-color: aqua;
+  height: 42px;
+  width: 130px;
+  border-radius: 40px;
+  margin-top: -1px;
+  margin-left: 80px;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+#webread:hover {
+  box-shadow: 0 0 20px aquamarine;
+}
+
+#webread a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#securread {
+  background-color: aqua;
+  height: 42px;
+  width: 130px;
+  border-radius: 40px;
+  margin-top: 1px;
+  margin-left: 80px;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+#securread:hover {
+  box-shadow: 0 0 20px aquamarine;
+}
+
+#securread a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#uiread {
+  background-color: aqua;
+  height: 42px;
+  width: 130px;
+  border-radius: 40px;
+  margin-top: 1px;
+  margin-left: 80px;
+  box-shadow: 0 0 10px aquamarine;
+}
+
+#uiread:hover {
+  box-shadow: 0 0 20px aquamarine;
+}
+
+#uiread a {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 12px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+.web p {
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -5px;
+  position: relative;
+}
+
+.secur p {
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -5px;
+  position: relative;
+}
+
+.ui p {
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  margin-top: -5px;
+  position: relative;
+}
+
+.web img {
+  height: 90px;
+  filter: invert(1) hue-rotate(180deg);
+  margin-top: -111px;
+  margin-left: -190px;
+  position: absolute;
+  filter: invert(1) hue-rotate(180deg) brightness(5);
+}
+
+.secur img {
+  height: 125px;
+  filter: invert(1) hue-rotate(180deg);
+  margin-top: -111px;
+  margin-left: -190px;
+  position: absolute;
+  filter: invert(1) hue-rotate(180deg) brightness(5);
+}
+
+.ui img {
+  height: 140px;
+  filter: invert(1) hue-rotate(180deg);
+  margin-top: -111px;
+  margin-left: -190px;
+  position: absolute;
+  filter: invert(1) hue-rotate(180deg) brightness(5);
+  padding: 50x;
+}
